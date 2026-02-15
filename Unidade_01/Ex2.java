@@ -7,7 +7,7 @@ public class Ex2 {
         num = Integer.parseInt(System.console().readLine());
 
         
-        System.out.println("O número é " + num + (num % 2 == 0 ? "par" : "ímpar") + ".");
+        System.out.println("O número " + num + " é " + (num % 2 == 0 ? "par" : "ímpar") + ".");
         
     }
 }

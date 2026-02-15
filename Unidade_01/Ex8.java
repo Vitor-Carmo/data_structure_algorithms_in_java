@@ -8,7 +8,7 @@ public class Ex8 {
         
         int[] numbers = new int[10];
 
-        System.out.println("Digite 10 números inteiros separados por espaço: ");
+        System.out.println("Digite 10 números inteiros: ");
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = Integer.parseInt(System.console().readLine());
         }
