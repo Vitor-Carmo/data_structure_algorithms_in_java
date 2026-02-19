@@ -26,7 +26,6 @@ public class Ex1 {
 
         for (int i = 0; i < size / 2; i++) {
             int temp = arr.get(i);
-            arr.set(i, size - 1);
             arr.set(i, arr.get(size - i - 1));
             arr.set(size - i - 1, temp);
 
